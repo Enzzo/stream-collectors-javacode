@@ -7,7 +7,19 @@
   <version>1.0-SNAPSHOT</version>
   <name>stream-collectors-javacode</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <maven.compiler.target>22</maven.compiler.target>
+    <maven.compiler.source>22</maven.compiler.source>
+  </properties>
+
   <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.32</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -15,4 +27,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
 </project>
